@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="ooo.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdownButton"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Contact
+            </a>
+            <div class="dropdown-menu" id="dropdownMenu" aria-labelledby="dropdownButton">
+              <a class="dropdown-item" href="#">Email</a>
+              <a class="dropdown-item" href="#">Phone</a>
+              <a class="dropdown-item" href="#">Social media</a>
+            </div>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </nav>
+    <img
+      src="c:\Users\Administrateur\Desktop\kimetsu-no-yaiba-anime-4k-yn-1920x1080.jpg"
+      alt=""
+      class="narutoh"
+    />
+    <div class="containers">
+      <div class="txtbb">
+        <form class="search">
+          <input type="text" placeholder="Search..." class="inputbb" />
+          <button type="submit">
+            <img
+              src="c:\Users\Administrateur\Desktop\téléchargement.png"
+              class="searchformebaby"
+              alt=""
+            />
+          </button>
+        </form>
+      </div>
+    </div>
+    <br />
+    <footer>
+      <footer class="bg-light text-center text-white">
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script>
+        // Get the dropdown button element
+        var dropdownButton = document.getElementById("dropdownButton");
+      
+        // Get the dropdown menu element
+        var dropdownMenu = document.getElementById("dropdownMenu");
+      
+        // Add a click event listener to the dropdown button
+        dropdownButton.addEventListener("click", function() {
+          // Toggle the "show" class on the dropdown menu
+          dropdownMenu.classList.toggle("show");
+        });
+      
+        // Close the dropdown menu if the user clicks outside of it
+        window.addEventListener("click", function(event) {
+          if (!event.target.matches(".dropdown-toggle")) {
+            dropdownMenu.classList.remove("show");
+          }
+        });
+      </script>
+</body>
+</html>
